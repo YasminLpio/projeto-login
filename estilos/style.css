@@ -3,7 +3,7 @@
 /*
 Paleta de cores:
 #2E3B55: azulado-acinado  
-#F29A2A: amarelo-alaranjado  
+#f29b2ae0: amarelo-alaranjado  
 #FFFFFF: branco  
 */
 
@@ -38,6 +38,9 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
